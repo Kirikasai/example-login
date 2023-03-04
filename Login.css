@@ -1,0 +1,87 @@
+
+.box{
+    padding: 100px;
+    display: grid;
+    place-content: center;
+    background: linear-gradient(70deg,rgb(94, 178, 218), rgb(133, 78, 2210));
+}
+
+.login{
+    font-size: 30px;
+}
+
+form{
+    max-width: 380px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+button{
+    color: white;
+    background: linear-gradient(70deg,rgb(133, 78, 221),rgb(94, 178, 218));
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+body{
+    background: linear-gradient(70deg,rgb(133, 78, 221),rgb(94, 178, 218));
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+  }
+  div{
+    place-items: center;
+    width: 300px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%); 
+    
+  }
+  #registrado{
+    color: rgb(37, 37, 37);
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+a{
+    color: rgb(70, 19, 209);
+    text-decoration: none;
+  
+  }
+#please{
+    font-size: 15px;
+  }  
+
+.uspas{
+  position: relative;
+  font-size: 14px;
+  height: auto;
+  padding: 10px;
+  opacity: calc(70%);
+}
+
+input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
